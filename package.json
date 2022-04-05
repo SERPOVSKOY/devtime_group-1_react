@@ -1,0 +1,19 @@
+{
+  "name": "devtime_group-1_react",
+  "version": "1.0.0",
+  "description": "Группа: Константин, Максим",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SERPOVSKOY/devtime_group-1_react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SERPOVSKOY/devtime_group-1_react/issues"
+  },
+  "homepage": "https://github.com/SERPOVSKOY/devtime_group-1_react#readme"
+}
