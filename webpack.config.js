@@ -8,5 +8,19 @@ module.exports = {
         path: path.resolve(__dirname, 'dist')
     },
     mode: 'development',
-    plugins: [new HtmlWebpackPlugin({ template: './src/index.html' })]
+    plugins: [new HtmlWebpackPlugin({ template: './src/index.html' })],
+    module: {
+        rules: [
+          {
+            test: /\.m?js$/,
+            exclude: /node_modules/,
+            use: {
+              loader: "babel-loader",
+              options: {
+                presets: ['@babel/preset-env']
+              }
+            }
+          }
+        ]
+      }
 }

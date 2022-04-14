@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/SERPOVSKOY/devtime_group-1_react#readme",
   "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "babel-loader": "^8.2.4",
     "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.72.0",
     "webpack-cli": "^4.9.2"
