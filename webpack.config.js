@@ -13,14 +13,23 @@ module.exports = {
     },
     module: {
         rules: [
-          {
+          { 
             test: /\.css$/i,
-            use: ["style-loader", "css-loader"],
             use: [MiniCssExtractPlugin.loader, "css-loader"],
           },
           {
             test: /\.(png|jpg|gif|svg|eot|ttf|woff)$/,
             type: 'asset/resource'
+          },
+          {
+            test: /\.m?js$/,
+            exclude: /node_modules/,
+            use: {
+              loader: "babel-loader",
+              options: {
+                presets: ['@babel/preset-env']
+              }
+            }
           }
         ],
       },
