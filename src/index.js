@@ -1,5 +1,5 @@
 import "./style.css";
 
 const myFunction = () => {
-    console.log(123);
-}
+  console.log(123);
+};
