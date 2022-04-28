@@ -3,3 +3,99 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.card1 {
+    padding: 16px;
+    width: 511px;
+    border: 1px;
+    border: 1px solid #E0E0E0;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card1_header {
+    width: 100%;
+}
+
+.card2 {
+    padding: 16px;
+    width: 377px;
+    border: 1px;
+    border-color: black;
+    background: white;
+}
+
+.card1_h1 {
+    padding-bottom: 8px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.card1_chat {
+    padding: 16px;
+    border: 1px solid #E0E0E0;
+    margin-bottom: 16px;
+    width: 479px;
+    height: 114px;
+}
+
+.card1_answer {
+    padding: 16px;
+    border: 1px solid #E0E0E0;
+    margin-bottom: 16px;
+    width: 479px;
+    height: 114px;
+}
+
+.cart1_btn {
+    border-radius: 4px;
+    background: #1565C0;
+    color: white;
+    border: 0;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 6px 16px;
+    line-height: 24px;
+}
+
+.speaker {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.card1_name {
+padding: 4px 8px;
+    width: 138px;
+    background: #1E88E5;
+    border-radius: 4px;
+}
+
+.card1_name_text {
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+
+}
+
+.card1_answer_text {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.card1_text {
+    margin-bottom: 32px;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    background: #E6E6E6;
+    padding: 24px;
+}
+
+html {
+    width: 100%;
+}
