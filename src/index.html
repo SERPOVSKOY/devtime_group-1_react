@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="./fonts/roboto.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -27,24 +28,50 @@
     <title>Social Network</title>
 </head>
 <body>
-    <div class="card">
-        <div class="card_header">
-            <h1 class="h1">Сообщения</h1>
-            <p class="speaker">диалог с Виктором Черемисиным</p>
+    <div class="sidebar">
+        <div class="sidebar__header">        
+            <a href="" class="logo">
+                <img src="./images/icon.png" alt="">
+                <span class="logo__text">Сетка</span>
+            </a>
         </div>
-        <div class="message">
-            <p class="message_text">Привет! Как дела?</p>
-            <div class="message_author">
-                <p class="message_author_text">Виктор Черемисин</p>
+        <nav class="sidebar__menu menu">
+            <p class="sidebar__title">Страницы</p>
+            <div class="menu_item">
+                <a href="" class="menu__link">
+                    <img src="./images/user.png" alt="profile icon" class="icon">
+                    <span>Профиль</span>
+                </a>
             </div>
-        </div >
-        <div class="message">
-            <p class="message_text">Привет! Нормально, как у тебя?</p>
-            <div class="message_author user">
-                <p class="message_author_text">я</p>
+            <div class="menu_item">
+                <a href="" class="menu__link">
+                    <img src="./images/mail.png" alt="messages icon" class="icon">
+                    <span>Сообщения</span>
+                    <span class="menu__badge">1</span>
+                </a>
             </div>
-        </div >
-        <button class="card_btn">Написать сообщение</button>
+        </nav>
+    </div>
+    <div class="content">
+        <div class="card">
+            <div class="card_header">
+                <h1 class="h1">Сообщения</h1>
+                <p class="speaker">диалог с Виктором Черемисиным</p>
+            </div>
+            <div class="message">
+                <p class="message_text">Привет! Как дела?</p>
+                <div class="message_author">
+                    <p class="message_author_text">Виктор Черемисин</p>
+                </div>
+            </div >
+            <div class="message">
+                <p class="message_text">Привет! Нормально, как у тебя?</p>
+                <div class="message_author user">
+                    <p class="message_author_text">Я</p>
+                </div>
+            </div >
+            <button class="card_btn">Написать сообщение</button>
+        </div>
     </div>
 </body>
 </html>

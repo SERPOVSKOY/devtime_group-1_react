@@ -5,6 +5,106 @@
     font-family: 'Nunito', sans-serif;
 }
 
+.title {
+    width: 100%;
+    height: 64px;
+    background: #232F3E;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    padding: 24px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.sidebar {
+    width: 260px;
+    background: #1B2430;
+    height: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.logo__text {
+    margin-left: 12px;
+}
+
+.sidebar__header {
+    padding: 20px;
+    color: white;
+    background: #232F3E;
+}
+
+.sidebar__menu {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.sidebar__title {
+    color:white;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.menu__badge {
+    color: white;
+    height: 20px;
+    width: 19px;
+    background-color: #1E88E5;
+    margin-left: 75px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.menu__link {
+    color: #EEEEEE;
+    text-decoration: none;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.menu_item {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.menu_item:hover {
+    background: #000000;
+}
+
 .card {
     padding: 16px;
     width: 511px;
@@ -98,7 +198,6 @@
 body {
     width: 100%;
     background: #E6E6E6;
-    padding: 24px;
 }
 
 html {
