@@ -26,6 +26,9 @@ body {
 .content {
     display: flex;
     flex: 1;
+    padding: 24px;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .sidebar {
@@ -100,4 +103,103 @@ body {
 
 .menu_item:hover {
     background: #000000;
+}
+
+.card {
+    padding: 16px;
+    width: 511px;
+    border: 1px;
+    border: 1px solid #E0E0E0;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_header {
+    width: 100%;
+}
+
+.card2 {
+    padding: 16px;
+    width: 377px;
+    border: 1px;
+    border-color: black;
+    background: white;
+}
+
+.h1 {
+    padding-bottom: 8px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.message {
+    padding: 16px;
+    border: 1px solid #E0E0E0;
+    margin-bottom: 16px;
+    width: 479px;
+    padding-bottom: 25px;
+}
+
+.card_input {
+    padding: 16px;
+    border: 1px solid #E0E0E0;
+    margin-bottom: 16px;
+    width: 100%;
+    height: 114px;
+}
+
+.card_btn {
+    border-radius: 4px;
+    background: #1565C0;
+    color: white;
+    border: 0;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 6px 16px;
+    line-height: 24px;
+}
+
+.speaker {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.message_author {
+    padding: 4px 8px;
+    width: fit-content;
+    background: #1E88E5;
+    border-radius: 4px;
+}
+
+.message_author_text {
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.user {
+    background: black;
+    margin-left: auto;
+}
+
+.card_input_text {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.message_text {
+    margin-bottom: 32px;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    background: #E6E6E6;
+}
+
+html {
+    width: 100%;
 }
