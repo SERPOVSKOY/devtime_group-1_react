@@ -86,8 +86,10 @@ body {
     font-size: 12px;
 }
 
-.menu__link {
+.menu__button {
     color: #EEEEEE;
+    background: transparent;
+    border: 0;
     text-decoration: none;
     display: flex;
     height: 100%;
